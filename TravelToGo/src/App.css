@@ -1,0 +1,77 @@
+#root {
+  max-width: max-content;
+  height: 100vh;
+  /* padding: 2rem; */
+}
+
+.nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#f55a5a;
+  width: 100dvw;
+  gap: 1rem;
+}
+
+.nav--title{
+  font-size: 2.5rem;
+  color: white;
+}
+
+.main{
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.card{
+  display:flex;
+  flex-direction: row;
+  max-width: 45%;
+}
+
+.card--image{
+  width: 100%;
+  height:auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.card--info{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 0.3rem;
+  padding: 0rem 2rem;
+  width: 100%;
+}
+
+.card--location{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.country{
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.title{
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.date{
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+h2, h3, h4, p{
+  margin: 0;
+}
